@@ -1,9 +1,13 @@
 import os
 import sys
-from PyQt5 import QtWidgets, QtCore, QtGui
+from src.controller.controller import Controller
+from src.controller.utils import Mode
+import pathlib
 
 
 if __name__ == "__main__":
 
-    app = QtWidgets.QApplication(sys.argv)
+    calq = Controller()
+    calq.main(mode=Mode.GUI)
 
+    
