@@ -1,7 +1,6 @@
 from enum import Enum, auto
 
 
-
 class Digit(Enum):
     ZERO = 0
     ONE = 1
