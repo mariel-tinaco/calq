@@ -1,5 +1,6 @@
 import sys
 import os
+import math
 from PyQt5.QtWidgets import QApplication
 from src.view.view import CalQMainWindow
 from src.controller.utils import Mode
@@ -16,3 +17,9 @@ class Controller:
             self.view = CalQMainWindow(self)
             self.view.show()
             app.exec()
+
+    
+    def compute_expression(self, expression):
+
+
+        return eval(expression)

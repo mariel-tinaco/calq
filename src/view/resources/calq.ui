@@ -152,7 +152,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="func_window">
+           <widget class="QPushButton" name="pushButton_func_window">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -477,21 +477,6 @@
              <enum>QFrame::Raised</enum>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_8">
-             <property name="spacing">
-              <number>2</number>
-             </property>
-             <property name="leftMargin">
-              <number>2</number>
-             </property>
-             <property name="topMargin">
-              <number>2</number>
-             </property>
-             <property name="rightMargin">
-              <number>2</number>
-             </property>
-             <property name="bottomMargin">
-              <number>2</number>
-             </property>
              <item>
               <layout class="QVBoxLayout" name="verticalLayout_9">
                <property name="spacing">
@@ -508,13 +493,87 @@
                  <property name="currentIndex">
                   <number>0</number>
                  </property>
-                 <widget class="QWidget" name="page_7">
-                  <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+                 <widget class="QWidget" name="page_1">
+                  <layout class="QVBoxLayout" name="verticalLayout_17">
+                   <item>
+                    <widget class="QLabel" name="placeHolder_calcu">
+                     <property name="text">
+                      <string>CALC</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
                  </widget>
-                 <widget class="QWidget" name="page_8">
+                 <widget class="QWidget" name="page_2">
+                  <layout class="QVBoxLayout" name="verticalLayout_19">
+                   <item>
+                    <widget class="QLabel" name="placeHolder_evalu">
+                     <property name="text">
+                      <string>EVAL</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_3">
+                  <layout class="QVBoxLayout" name="verticalLayout_20">
+                   <item>
+                    <widget class="QLabel" name="placeHolder_funct">
+                     <property name="text">
+                      <string>FUNC</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_4">
+                  <layout class="QVBoxLayout" name="verticalLayout_18">
+                   <item>
+                    <widget class="QLabel" name="placeHolder_cmplx">
+                     <property name="text">
+                      <string>COMPLEX</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_5">
+                  <layout class="QVBoxLayout" name="verticalLayout_23">
+                   <item>
+                    <widget class="QLabel" name="placeHolder_stati">
+                     <property name="text">
+                      <string>STAT</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_6">
                   <layout class="QVBoxLayout" name="verticalLayout_16">
                    <item>
-                    <widget class="QGraphicsView" name="graphicsView"/>
+                    <widget class="QGraphicsView" name="placeHolder_disc"/>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_7">
+                  <layout class="QVBoxLayout" name="verticalLayout_21">
+                   <item>
+                    <widget class="QLabel" name="placeHoder_matrix">
+                     <property name="text">
+                      <string>MATRIX</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_8">
+                  <layout class="QVBoxLayout" name="verticalLayout_22">
+                   <item>
+                    <widget class="QLabel" name="placeHolder_vec">
+                     <property name="text">
+                      <string>VECTOR</string>
+                     </property>
+                    </widget>
                    </item>
                   </layout>
                  </widget>
@@ -546,6 +605,21 @@
           <enum>QFrame::Raised</enum>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
           <item>
            <widget class="QFrame" name="frame_8">
             <property name="sizePolicy">
@@ -1212,7 +1286,7 @@
                       </font>
                      </property>
                      <property name="text">
-                      <string>ln(x)</string>
+                      <string>ln𝑥</string>
                      </property>
                     </widget>
                    </item>
@@ -1230,7 +1304,7 @@
                       </font>
                      </property>
                      <property name="text">
-                      <string>ᵉ√x</string>
+                      <string>ᵉ√𝑥</string>
                      </property>
                     </widget>
                    </item>
@@ -1248,7 +1322,7 @@
                       </font>
                      </property>
                      <property name="text">
-                      <string>logₙ(x)</string>
+                      <string>logₙ𝑥</string>
                      </property>
                     </widget>
                    </item>
@@ -1266,7 +1340,7 @@
                       </font>
                      </property>
                      <property name="text">
-                      <string>ⁿ√x</string>
+                      <string>ⁿ√𝑥</string>
                      </property>
                     </widget>
                    </item>
@@ -1320,7 +1394,7 @@
                       </font>
                      </property>
                      <property name="text">
-                      <string>¹⁰√x</string>
+                      <string>¹⁰√𝑥</string>
                      </property>
                     </widget>
                    </item>
@@ -1338,7 +1412,7 @@
                       </font>
                      </property>
                      <property name="text">
-                      <string>log₁₀(x)</string>
+                      <string>log₁₀𝑥</string>
                      </property>
                     </widget>
                    </item>
@@ -1356,7 +1430,7 @@
                       </font>
                      </property>
                      <property name="text">
-                      <string>log₂(x)</string>
+                      <string>log₂𝑥</string>
                      </property>
                     </widget>
                    </item>
