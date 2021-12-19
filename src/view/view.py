@@ -17,6 +17,7 @@ class CalQMainWindow(QtWidgets.QMainWindow):
 
     def initialize(self):
 
+        self.current_mode = 0
         self.connect_widgets()
         self.set_default_states()
 
@@ -28,4 +29,7 @@ class CalQMainWindow(QtWidgets.QMainWindow):
 
     def set_default_states(self):
         
-        self.stackedWidget_modes.setCurrentIndex(0)
+        self.stackedWidget_modes.setCurrentIndex(self.current_mode)
+
+    def change_modes(self):
+        pass

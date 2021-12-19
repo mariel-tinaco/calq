@@ -6,8 +6,12 @@ import pathlib
 
 
 if __name__ == "__main__":
+    # # Controller Modes:
+    # #     g - GUI mode
+    # #     t - Terminal mode
+    # #     s - Script mode
 
     calq = Controller()
-    calq.main(mode=Mode.GUI)
+    calq.main(mode="g")
 
     
